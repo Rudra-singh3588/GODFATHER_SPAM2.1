@@ -2,7 +2,7 @@ from config import MK1, MK2, MK3, MK4, MK5, MK6, MK7, MK8, MK9, MK10, SUDO_USERS
 from telethon import events, Button
 
 
-PythonHelp = f"★ 𝙂𝙊𝘿𝙁𝘼𝙏𝙃𝙀𝙍 𝙃𝙀𝙇𝙋 𝙈𝙀𝙉𝙐 ★\n\n» **ᴄʟɪᴄᴋ ᴏɴ ʙᴇʟᴏᴡ ʙᴜᴛᴛᴏɴꜱ ꜰᴏʀ ʜᴇʟᴘ**\n» **ʟᴇɢᴇɴᴅ: @YOUR_GODFATHER_XD**"
+PythonHelp = f"★ 𝙂𝙊𝘿𝙁𝘼𝙏𝙃𝙀𝙍 𝙃𝙀𝙇𝙋 𝙈𝙀𝙉𝙐 ★\n\n» **ᴄʟɪᴄᴋ ᴏɴ ʙᴇʟᴏᴡ ʙᴜᴛᴛᴏɴꜱ ꜰᴏʀ ʜᴇʟᴘ**\n» **ʟᴇɢᴇɴᴅ: @Rajput_hu**"
 
 
 @MK1.on(events.NewMessage(incoming=True, pattern=r"\%shelp(?: |$)(.*)" % hl))
@@ -29,8 +29,8 @@ async def help(event):
             Button.inline("• ᴇxᴛʀᴀ •", data="extra"),
            ],
            [    
-            Button.url("• ᴄʜᴀɴɴᴇʟ •", "https://t.me/THE_INCRICIBLE"),
-            Button.url("• sᴜᴘᴘᴏʀᴛ •", "https://t.me/INCRICIBLE")
+            Button.url("• ᴄʜᴀɴɴᴇʟ •", "https://t.me/TG_TALKERS"),
+            Button.url("• sᴜᴘᴘᴏʀᴛ •", "https://t.me/TG_TALKERS")
            ],
            ],
            )
@@ -54,7 +54,7 @@ extra_msg = f"""
   2) {hl}leave : Type in the Group bot will auto leave that group
 
 
-**© @YOUR_GODFATHER_XD**
+**© @Rajput_hu**
 """
 
                  
@@ -86,7 +86,7 @@ raid_msg = f"""
   2) {hl}craid <count> <reply to user>
 
 
-**© @YOUR_GODFATHER_XD**
+**© @Rajput_hu**
 """
 
 spam_msg = f"""
@@ -103,7 +103,7 @@ spam_msg = f"""
   1) {hl}hang <counter> (you can reply any message if you want bot to reply that message and do spamming)
 
 
-** © @YOUR_GODFATHER_XD**
+** © @Rajput_hu**
 """                     
            
            
@@ -130,8 +130,8 @@ async def helpback(event):
             Button.inline("• ᴇxᴛʀᴀ •", data="extra"),
            ],
            [
-            Button.url("• ᴄʜᴀɴɴᴇʟ •", "https://t.me/THE_INCRICIBLE"),
-            Button.url("• sᴜᴘᴘᴏʀᴛ •", "https://t.me/INCRICIBLE")
+            Button.url("• ᴄʜᴀɴɴᴇʟ •", "https://t.me/TG_TALKERS"),
+            Button.url("• sᴜᴘᴘᴏʀᴛ •", "https://t.me/TG_TALKERS")
            ],
            ],
         )           
