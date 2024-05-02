@@ -8,8 +8,8 @@ PythonButton = [
         Button.inline("• ᴄᴏᴍᴍᴀɴᴅs •", data="help_back")
         ],
         [
-        Button.url("• ᴄʜᴀɴɴᴇʟ •", "https://t.me/AFK_daddy_town"),
-        Button.url("• sᴜᴘᴘᴏʀᴛ •", "https://t.me/afk_community_ll")
+        Button.url("• ᴄʜᴀɴɴᴇʟ •", "https://t.me/moii_contact"),
+        Button.url("• sᴜᴘᴘᴏʀᴛ •", "https://t.me/supra_spam_bots")
         ],
         [
         Button.url("• ʀᴇᴘᴏ •", "KHUD SE BNA LE BSDK")
@@ -34,11 +34,11 @@ async def start(event):
         BotName = AltBot.first_name
         BotId = AltBot.id
         TEXT = f"**ʜᴇʏ​ [{event.sender.first_name}](tg://user?id={event.sender.id}),\n\nɪ ᴀᴍ [{BotName}](tg://user?id={BotId})​**\n━━━━━━━━━━━━━━━━━━━\n\n"
-        TEXT += f"» **ᴍʏ ᴅᴇᴠᴇʟᴏᴘᴇʀ​ : [SUPRA](https://t.me/Rajput_hu)**\n\n"
+        TEXT += f"» **ᴍʏ ᴅᴇᴠᴇʟᴏᴘᴇʀ​ : [SUPRA](https://t.me/rudra_rajput_ll)**\n\n"
         TEXT += f"» **ʙᴏᴛ ꜱᴘᴀᴍ ᴠᴇʀsɪᴏɴ :** `M3.2`\n"
         TEXT += f"» **ᴛᴇʟᴇᴛʜᴏɴ ᴠᴇʀsɪᴏɴ :** `{telethon.__version__}`\n━━━━━━━━━━━━━━━━━"
         await event.client.send_file(
                 event.chat_id,
-                "https://telegra.ph/file/c576171a46305e51f85c7.jpg",
+                "https://telegra.ph/file/d57877136da61e391eaec.jpg",
                 caption=TEXT, 
                 buttons=PythonButton)
